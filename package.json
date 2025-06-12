@@ -1,0 +1,17 @@
+{
+  "name": "onrender-pinger",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "A Node.js service that keeps your Render.com applications alive by pinging them every 15 minutes to prevent them from going idle.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-fetch": "^2.6.9"
+  }
+}

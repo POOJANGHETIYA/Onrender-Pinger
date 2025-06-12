@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: onrender-pinger
+    env: node
+    buildCommand: npm install
+    startCommand: node app.js
+    autoDeploy: true
